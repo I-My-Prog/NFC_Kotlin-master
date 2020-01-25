@@ -4,8 +4,6 @@ import android.app.PendingIntent
 import android.content.Intent
 import android.nfc.NfcAdapter
 import android.nfc.Tag
-import android.nfc.tech.MifareClassic
-import android.nfc.tech.MifareUltralight
 import android.os.Bundle
 import android.provider.Settings.ACTION_NFC_SETTINGS
 import android.view.View
