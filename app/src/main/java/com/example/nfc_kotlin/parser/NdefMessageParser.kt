@@ -21,7 +21,6 @@ import android.nfc.NdefMessage
 import android.nfc.NdefRecord
 
 // import com.example.nfc_kotlin.R;
-// import com.example.nfc_kotlin.model.History;
 import com.example.nfc_kotlin.record.ParsedNdefRecord
 import com.example.nfc_kotlin.record.SmartPoster
 import com.example.nfc_kotlin.record.TextRecord

@@ -20,7 +20,6 @@ import android.nfc.NdefRecord;
 
 import com.google.common.base.Preconditions;
 // import com.example.nfc.mynfcreader.R;
-import com.example.nfc_kotlin.model.History;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;

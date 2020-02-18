@@ -26,7 +26,6 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Iterables;
 // import com.example.nfc_kotlin.R;
-// import com.example.nfc_kotlin.model.History;
 import com.example.nfc_kotlin.parser.NdefMessageParser;
 // import com.example.nfc_kotlin.utils.Utils;
 
