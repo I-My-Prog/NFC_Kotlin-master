@@ -26,7 +26,6 @@ import com.example.nfc_kotlin.record.ParsedNdefRecord
 import com.example.nfc_kotlin.record.SmartPoster
 import com.example.nfc_kotlin.record.TextRecord
 import com.example.nfc_kotlin.record.UriRecord
-// import com.example.nfc_kotlin.utils.NFCReaderApp;
 
 import java.util.ArrayList
 

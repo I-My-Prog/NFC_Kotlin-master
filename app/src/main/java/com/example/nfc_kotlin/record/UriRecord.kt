@@ -20,12 +20,9 @@ import android.net.Uri
 import android.nfc.NdefRecord
 
 import com.google.common.base.Preconditions
-import com.google.common.collect.BiMap
 import com.google.common.collect.ImmutableBiMap
 import com.google.common.primitives.Bytes
 // import com.example.nfc.mynfcreader.R;
-import com.example.nfc_kotlin.model.History
-import com.example.nfc_kotlin.utils.NFCReaderApp
 
 import java.nio.charset.Charset
 import java.util.Arrays
