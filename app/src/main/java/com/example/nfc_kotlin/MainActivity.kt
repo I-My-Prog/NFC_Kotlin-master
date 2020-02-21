@@ -49,8 +49,10 @@ class MainActivity : AppCompatActivity() {
         if (nfcAdapterRefCopy != null) {
             if (!nfcAdapterRefCopy.isEnabled())
                 showNFCSettings()
+                //NFC is disabled -> goto NFC setting
 
             nfcAdapterRefCopy.enableForegroundDispatch(this, pendingIntent, null, null)
+            //Read Card, only when app is foreground -> scan NFC card
         }
     }
 
