@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showNFCSettings() {
         Toast.makeText(this, "You need to enable NFC", Toast.LENGTH_SHORT).show()
+        //Indicate Toast; Toast is a short message in Black Circle
         val intent = Intent(ACTION_NFC_SETTINGS)
         startActivity(intent)
     }
@@ -76,7 +77,7 @@ class MainActivity : AppCompatActivity() {
         val sb = StringBuilder()
         val id = tag.getId()
         sb.append("ID (hex): ").append(Utils.toHex(id)).append('\n')
-
+        //Indicate Card ID
         sb.delete(sb.length - 2, sb.length)
 
         return sb.toString()

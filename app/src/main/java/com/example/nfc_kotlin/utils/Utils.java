@@ -1,3 +1,4 @@
+//NFCリーダから取得したコード(byte)を16進数に変換する
 package com.example.nfc_kotlin.utils;
 
 public class Utils {
